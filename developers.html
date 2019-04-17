@@ -1,0 +1,180 @@
+<DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Developers</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    p {
+            font-family: courier;
+            color: aliceblue;
+        
+      }
+
+    h1 {   
+            
+            color:black;
+            text-align: center;
+            padding:20px;
+            font-family:  cursive;
+            font-size: 50px;
+            position: relative;
+           
+        }
+
+    .priyesh {
+                position: relative;
+                margin-right:30px;
+                margin-top: 85px;
+                margin-left: 10px;
+             }
+
+    .center {
+                position: absolute;
+                bottom:0;
+                top:250px;
+                left: 200px;
+                transform: translate(-50%, -50%);
+                font-size: 25px;
+                font-weight:700;
+                color:black;
+                text-align: center;
+                font-family: cursive;
+            }
+
+    .text1 {    
+                position: absolute;
+                font-size: 16px;
+                font-family: cursive;
+                text-align: center;
+                font-weight: 550;
+                margin-right: 10px;
+                margin-left: 25px;
+            
+               
+           }
+
+    .img {
+            border-radius: 50px;
+            display: block;
+            opacity: 0.7;
+            margin-left: 50px;
+            margin-right: 50px;
+            border: 2px black solid;
+
+         }
+    
+    .overlay {
+                position: absolute;
+                bottom: 100%;
+                left: 52px;
+                right: 0;
+                background-color:white;
+                overflow: hidden;
+                width: 300px;
+                height:0;
+                border-radius: 50px;
+                transition: .5s ease;
+                opacity: 0.7;
+             }
+
+    .text {
+                white-space: nowrap; 
+                color:black;
+                font-size: 20px;
+                position: absolute;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+            }
+    .priyesh:hover .overlay {
+                                bottom: 0;
+                                height: 100%;
+                            }
+
+    .cont1 {
+              display: inline-flex;
+              flex-wrap: wrap;
+              flex-direction: row;
+           }
+
+    body {
+            margin:0; 
+            font:normal 75% Arial, Helvetica, sans-serif;
+            background-color:aliceblue;  
+         }
+
+    canvas { 
+                display: block;
+                vertical-align:bottom;
+                height: 100%;
+        } 
+            /* ---- particles.js container ---- */ 
+     #particles-js {        
+                            position:absolute; 
+                            width: 100%; 
+                            height: 100%; 
+                            background-color:aliceblue; 
+                            background-image: url(""); 
+                            background-repeat:repeat; 
+                            background-size: cover; 
+                            background-position: 50% 50% ; 
+                   } /* ---- stats.js ---- */ 
+
+    </style>
+
+ </head>
+    <body>
+            <div id="particles-js"></div> <!-- stats - count particles --> 
+            <h1>DEVEOPERS { }</h1>
+        <div class="cont1">
+            
+        <div class="priyesh">
+            <img class="img" src="priyesh1.jpg" alt="priyesh pic" width="300px" height="320px" >
+            <div class="center">Priyesh Rathore 
+            <div class="text1">MEAN Stack Developer </div>
+            </div>
+           <div class="overlay">
+                   <div class="text">
+                       <a href="https://www.facebook.com/priyesh.rathore.98" target="_blank" class="fa fa-facebook-square" style="font-size:50px"></a>
+                       <a href="https://www.linkedin.com/in/priyesh-rathore-08679917b/" target="_blank" class="fa fa-linkedin-square" style="font-size:50px"></a>
+                      <a href="https://github.com/priyesh2206" class="fa fa-github-square" target="_blank" style="font-size:50px"></a>
+                   </div>
+            </div>
+        </div>
+        <div class="priyesh">
+            <img class="img" src="prashant.jpg" alt="prashant pic" width="300px" height="320px" >
+            <div class="center">Prashant Singh
+              <div class="text1">MEAN Stack Developer </div>
+            </div>
+            <div class="overlay">
+                    <div class="text">
+                            <a href="" target="_blank"  class="fa fa-facebook-square" style="font-size:50px"></a>
+                            <a href="" target="_blank"  class="fa fa-linkedin-square" style="font-size:50px"></a>
+                            <a href="" target="_blank"  class="fa fa-github-square" style="font-size:50px"></a>
+                    </div>
+            </div>
+        </div>
+        <div class="priyesh">
+                <img class="img" src="abhay.jpg" alt="abhay pic" width="300px" height="320px" >
+                <div class="center">Abhay Sahu
+                <div class="text1">MEAN Stack Developer</div>
+                </div>
+                <div class="overlay">
+                        <div class="text">
+                                <a href="" class="fa fa-facebook-square" style="font-size:50px"></a>
+                                <a href="" class="fa fa-linkedin-square" style="font-size:50px"></a>
+                                <a href="" class="fa fa-github-square" style="font-size:50px"></a>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+            <script src="particle.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            </body>
+    </html>
